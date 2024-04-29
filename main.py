@@ -61,3 +61,27 @@ if __name__ == "__main__":
   print(numbers)
   numbers.insert(2, 100)
   print(numbers)
+
+  # Removing elements from a list
+
+  numbers = [1, 3, 2, 7, 9, 4]
+  print(numbers)
+  del numbers[0]
+  print(numbers)
+
+  numbers = [1, 3, 2, 7, 9, 4]
+  print(numbers)
+  last = numbers.pop()
+  print(numbers)
+  print(last)
+
+  numbers = [1, 3, 2, 7, 9, 4]
+  print(numbers)
+  second = numbers.pop(1)
+  print(numbers)
+  print(second)
+
+  numbers = [1, 3, 2, 7, 9, 4]
+  print(numbers)
+  numbers.remove(9)
+  print(numbers)
