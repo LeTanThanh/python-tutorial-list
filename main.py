@@ -28,3 +28,24 @@ if __name__ == "__main__":
   print(numbers[-1])
   print(numbers[-1])
   print(numbers[-2])
+
+  # Modifying elements in a list
+
+  """
+  list[index] = new_value
+  """
+
+  numbers = [1, 3, 2, 7, 9, 4]
+  print(numbers)
+  numbers[0] = 10
+  print(numbers)
+
+  numbers = [1, 3, 2, 7, 9, 4]
+  print(numbers)
+  numbers[1] = numbers[1] * 10
+  print(numbers)
+
+  numbers = [1, 3, 2, 7, 9, 4]
+  print(numbers)
+  numbers[2] = numbers[2] / 2
+  print(numbers)
