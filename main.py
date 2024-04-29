@@ -49,3 +49,15 @@ if __name__ == "__main__":
   print(numbers)
   numbers[2] = numbers[2] / 2
   print(numbers)
+
+  # Adding elements to the list
+
+  numbers = [1, 3, 2, 7, 9, 4]
+  print(numbers)
+  numbers.append(100)
+  print(numbers)
+
+  numbers = [1, 3, 2, 7, 9, 4]
+  print(numbers)
+  numbers.insert(2, 100)
+  print(numbers)
